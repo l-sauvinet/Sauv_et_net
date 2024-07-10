@@ -1,0 +1,80 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* En-tête principal */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    background: rgba(255,255,255,1);
+}
+
+/* Conteneur gauche avec le bouton de menu et le logo */
+.leftContainer {
+    display: flex;
+    align-items: center;
+}
+
+.menuBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+.menuBtn:hover {
+    background-color: rgba(197, 197, 197, 0.582);
+}
+
+.menuIcon {
+    height: 35px;
+    width: 35px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+/* Conteneur des outils à droite */
+.outilContainer {
+    position: relative;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: linear-gradient(145deg, rgba(255,255,255,1) 30%, #0693E3 30%);
+}
+
+.iconOutil {
+    height: 150px;
+    width: 150px;
+    margin-top: 2.5px;
+    margin-right: 60%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
